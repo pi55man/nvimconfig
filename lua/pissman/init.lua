@@ -1,3 +1,4 @@
 require("pissman.remap")
-print("hello from psisman")
+require("pissman.config.lazy")
+require("pissman.set")
 
