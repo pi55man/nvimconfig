@@ -1,0 +1,2 @@
+require("pissman")
+print("hello")
