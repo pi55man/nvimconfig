@@ -1,5 +1,6 @@
 require("pissman.config.lazy")
 require("pissman.remap")
+require("pissman")
 vim.api.nvim_exec([[
   augroup YankHighlight
     autocmd!
