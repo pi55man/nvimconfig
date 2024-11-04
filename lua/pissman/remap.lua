@@ -11,7 +11,7 @@ vim.keymap.set("x","<leader>p","\"_dP")
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 -- Automatically close brackets
-vim.api.nvim_set_keymap('i', '(', '()<>Left>', { noremap = true })
+vim.api.nvim_set_keymap('i', '(', '()<Left>', { noremap = true })
 vim.api.nvim_set_keymap('i', '{', '{}<Left>', { noremap = true })
 vim.api.nvim_set_keymap('i', '[', '[]<Left>', { noremap = true })
 vim.api.nvim_set_keymap('i', "'", "''<Left>", { noremap = true })
